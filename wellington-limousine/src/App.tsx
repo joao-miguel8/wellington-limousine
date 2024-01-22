@@ -1,9 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Nav from "./components/Nav";
-import HeroSection from "./components/hero-section/HeroSection";
-import { MdMenu } from "react-icons/md";
 import Header from "./components/header/Header";
+import NewClientForm from "./components/new-client-form/NewClientForm";
 
 function App() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
@@ -11,6 +9,7 @@ function App() {
 		<>
 			<Header isMenuClosed={isMenuClosed} setIsMenuClosed={setIsMenuClosed} />
 			{/* <HeroSection /> */}
+			<NewClientForm />
 		</>
 	);
 }
