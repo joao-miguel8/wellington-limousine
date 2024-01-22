@@ -11,6 +11,7 @@ while (i <= maxFontSize) {
 }
 
 module.exports = {
+	darkMode: "class",
 	content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
 	theme: {
 		fontSize: fontSizes,
