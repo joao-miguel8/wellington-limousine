@@ -23,7 +23,7 @@ function Nav() {
 				<ul className="px-10 w-full flex justify-between items-center max-[400px]:py-2">
 					{menuItems.map(item => {
 						return (
-							<li className="flex flex-col items-center">
+							<li key={item.name} className="flex flex-col items-center">
 								{item.icon}
 								<span className="text-12 text-white max-[400px]:hidden ">{item.name}</span>
 							</li>
