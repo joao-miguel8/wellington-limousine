@@ -15,6 +15,10 @@ module.exports = {
 	content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
 	theme: {
 		fontSize: fontSizes,
+		fontFamily: {
+			mulish: ["Mulish", "sans-serif"],
+			taviraj: ["taviraj", "serif"],
+		},
 		extend: {},
 	},
 	variants: ["hover", "focus"],
