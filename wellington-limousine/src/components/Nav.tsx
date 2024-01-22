@@ -9,9 +9,9 @@ function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMe
 
 	return (
 		<>
-			<div className={`${!isMenuClosed ? "-translate-y-full" : "translate-y-0"} ease-in-out transition duration-500 absolute z-100 flex w-full h-screen bg-[#171717]`}>
+			<div className={`${!isMenuClosed ? "-translate-x-full" : "translate-x-0"} ease-in-out transition duration-500 fixed z-100 flex w-full h-screen bg-[#171717]`}>
 				<nav className=" w-full h-full flex flex-col justify-center">
-					<button onClick={() => setIsMenuClosed(false)} className="absolute top-6 right-6 hover:text-[#D7B65C] text-white hover:duration-200">
+					<button onClick={() => setIsMenuClosed(false)} className="absolute top-0 right-8 hover:text-[#D7B65C] text-white hover:duration-200">
 						<IoIosCloseCircleOutline size={"2.4rem"} />
 					</button>
 					<ul className="flex flex-col gap-6 items-center justify-start w-fit mx-auto">
