@@ -14,9 +14,9 @@ function NewClientForm() {
 	});
 
 	return (
-		<div className="pt-6 mt-[70px] rounded-sm">
-			<h4 className="mx-auto font-taviraj text-center text-28 max-w-[350px]">Notify us by email to be a potential client</h4>
-			<form action="" className="mx-2 p-4 mt-10 bg-[#F8F8F8]">
+		<div className="mx-auto pb-10 pt-6 mt-[70px] rounded-sm max-w-[700px]">
+			<h4 className="mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28 max-w-[350px]">Notify us by email to be a potential client</h4>
+			<form action="" className="mx-2 p-8 mt-10 bg-[#F8F8F8]">
 				<div className="flex flex-col w-full gap-6 ">
 					<div className="flex flex-col font-mulish">
 						<label htmlFor="name">Name</label>
