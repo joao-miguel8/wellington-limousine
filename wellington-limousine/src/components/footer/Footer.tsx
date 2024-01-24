@@ -1,7 +1,7 @@
 import logo from "../../assets/wellingtonLimousineLogo.png";
 import { FaLocationDot } from "react-icons/fa6";
 
-function Footer() {
+function Footer({ handleInputRefFocusScroll }: { handleInputRefFocusScroll: () => void }) {
 	return (
 		<footer className="mt-10 border-t border-[#e8e8e8]">
 			<div className="p-10">
@@ -15,7 +15,9 @@ function Footer() {
 					</div>
 					<div className="flex flex-col items-center flex-[50%] max-w-[500px] ">
 						<p className="mt-10 max-w-[400px] text-center font-mulish">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur corrupti voluptates.</p>
-						<button className="mt-10 p-4 bg-[#D7B65C] hover:scale-[1.05] duration-300 font-mulish font-bold">Reach out to us</button>
+						<button onClick={() => handleInputRefFocusScroll()} className="mt-10 p-4 bg-[#D7B65C] hover:scale-[1.05] duration-300 font-mulish font-bold">
+							Reach out to us
+						</button>
 					</div>
 				</div>
 			</div>

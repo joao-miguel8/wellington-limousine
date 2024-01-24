@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function NewClientForm() {
+function NewClientForm({ formInputRef }) {
 	type ClientFormDataType = {
 		name: string;
 		email: string;
@@ -29,7 +29,7 @@ function NewClientForm() {
 				<div className="flex flex-col w-full gap-6">
 					<div className="flex flex-col font-mulish">
 						<label htmlFor="name">Name</label>
-						<input value={clientFormData.name} onChange={e => setClientFormData({ ...clientFormData, name: e.target.value })} name="name" type="text" placeholder="e.g John Smith" className="mt-2 p-2 border-[1.2px] border-[#e0dfdf]" />
+						<input ref={formInputRef} id="name-input" value={clientFormData.name} onChange={e => setClientFormData({ ...clientFormData, name: e.target.value })} name="name" type="text" placeholder="e.g John Smith" className="mt-2 p-2 border-[1.2px] border-[#e0dfdf]" />
 					</div>
 					<div className="flex flex-col font-mulish">
 						<label htmlFor="">Email</label>

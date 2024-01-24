@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 import HeroSection from "./components/hero-section/HeroSection";
 import Header from "./components/header/Header";
@@ -11,20 +11,29 @@ import ParrlaxImageScrollSection from "./components/parallax-image-scroll-sectio
 
 function App() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
+	const inputRef = useRef<HTMLInputElement>();
+
+	const handleInputRefFocusScroll = () => {
+		if (inputRef.current) {
+			inputRef.current.scrollIntoView();
+			inputRef.current.focus();
+		}
+	};
 
 	return (
 		<>
 			<Header isMenuClosed={isMenuClosed} setIsMenuClosed={setIsMenuClosed} />
-			<HeroSection />
+			<HeroSection handleFormInputFocusScroll={() => handleInputRefFocusScroll()} />
+			{/* ABOUT SECTION */}
 			<AboutSection />
-			<NewClientForm />
+			<NewClientForm formInputRef={inputRef} />
 			{/* PARALLAX IMG SECTION */}
 			<ParrlaxImageScrollSection />
 			{/* BENEFITS SECTION */}
 			<BenefitsSection />
 			{/* REVIEWS SECTION */}
 			<CustomerTestimonials />
-			<Footer />
+			<Footer handleInputRefFocusScroll={handleInputRefFocusScroll} />
 		</>
 	);
 }
