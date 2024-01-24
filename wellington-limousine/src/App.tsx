@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import paralaxImg from "./assets/luxury-car-img.jpg";
-import paralaxImg2 from "./assets/client-in-backseat.jpg";
+import parallaxImgDesktop from "./assets/client-in-backseat.jpg";
+
 import HeroSection from "./components/hero-section/HeroSection";
 import Header from "./components/header/Header";
 import NewClientForm from "./components/new-client-form/NewClientForm";
@@ -17,12 +17,16 @@ function App() {
 			{/* <HeroSection /> */}
 			<NewClientForm />
 			{/* PARALLAX IMG SECTION */}
-			<div style={{ backgroundImage: `url(${paralaxImg})` }} className="mb-[100px] h-[50rem] w-full object-fit bg-no-repeat bg-cover  flex justify-center bg-center align-center bg-fixed">
-				<h2 className="mx-4 mt-20 font-taviraj m-auto max-w-[600px] text-34 min-[500px]:text-50 text-center text-white ">Lorem ipsum dolor sit amet consectetur </h2>
+			{/* style={{ backgroundImage: `url(${parallaxImgMobile})` }} */}
+			<div className="mb-40 relative">
+				<div className={`h-[30rem] w-full object-fit bg-no-repeat bg-cover flex justify-center bg-center align-center bg-fixed brightness-50 bg-[url(src/assets/client-in-backseat-mobile.jpg)] min-[350px]:bg-[url(src/assets/client-in-backseat.jpg)]`}></div>
+				<div className="w-full absolute top-1/2 -translate-y-1/2 z-20">
+					<h2 className="px-2 mx-auto mb-30 font-taviraj max-w-[600px] text-30 min-[400px]:text-38 min-[800px]:text-50 text-center text-white">Lorem ipsum dolor sit amet consectetur </h2>
+				</div>
 			</div>
+
 			{/* BENEFITS SECTION */}
 			<BenefitsSection />
-
 			{/* REVIEWS SECTION */}
 			<CustomerTestimonials />
 		</>
