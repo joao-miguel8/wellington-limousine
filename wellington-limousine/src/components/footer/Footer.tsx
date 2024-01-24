@@ -14,7 +14,7 @@ function Footer({ handleInputRefFocusScroll }: { handleInputRefFocusScroll: () =
 						</div>
 					</div>
 					<div className="flex flex-col items-center flex-[50%] max-w-[500px] ">
-						<p className="mt-10 max-w-[400px] text-center font-mulish">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur corrupti voluptates.</p>
+						<p className="mt-10 max-w-[400px] text-center font-mulish text-16">If our services interest you, please submit our form to become our potential client.</p>
 						<button onClick={() => handleInputRefFocusScroll()} className="mt-10 p-4 bg-[#D7B65C] hover:scale-[1.05] duration-300 font-mulish font-bold">
 							Reach out to us
 						</button>
