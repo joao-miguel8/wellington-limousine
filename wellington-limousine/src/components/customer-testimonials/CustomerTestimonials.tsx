@@ -14,7 +14,7 @@ const clientTestimonials = [
 function CustomerTestimonials() {
 	return (
 		<section className="mt-40">
-			<h4 className="text-center font-taviraj font-medium color-[#171717] text-22 min-[350px]:text-28">Customer Testimonials</h4>
+			<h4 className="text-center font-taviraj font-medium color-[#171717] text-22 min-[350px]:text-28">Client Testimonials</h4>
 			<Swiper
 				style={{
 					height: "400px",
