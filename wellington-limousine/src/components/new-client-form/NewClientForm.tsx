@@ -19,8 +19,12 @@ function NewClientForm() {
 				<span className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">Sign up</span>
 				<h4 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28 max-w-[350px]">Notify us by email to be a potential client</h4>
 			</div>
-			<form action="" className="mx-2 p-8 mt-10 bg-[#F8F8F8]">
-				<div className="flex flex-col w-full gap-6 ">
+			<form
+				action=""
+				className="mx-4 p-8 mt-10 bg-[#f9f9f9]
+        [box-shadow:rgba(50,_50,_93,_0.25)_0px_2px_5px_-1px,_rgba(0,_0,_0,_0.3)_0px_1px_3px_-1px]
+ ">
+				<div className="flex flex-col w-full gap-6">
 					<div className="flex flex-col font-mulish">
 						<label htmlFor="name">Name</label>
 						<input value={clientFormData.name} onChange={e => setClientFormData({ ...clientFormData, name: e.target.value })} name="name" type="text" placeholder="e.g John Smith" className="mt-2 p-2 border-[1.2px] border-[#e0dfdf]" />
