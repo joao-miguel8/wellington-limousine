@@ -1,12 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import parallaxImgDesktop from "./assets/client-in-backseat.jpg";
-
 import HeroSection from "./components/hero-section/HeroSection";
 import Header from "./components/header/Header";
 import NewClientForm from "./components/new-client-form/NewClientForm";
 import BenefitsSection from "./components/benefits-section/BenefitsSection";
 import CustomerTestimonials from "./components/customer-testimonials/CustomerTestimonials";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
@@ -29,21 +28,7 @@ function App() {
 			<BenefitsSection />
 			{/* REVIEWS SECTION */}
 			<CustomerTestimonials />
-			<footer className="border-2">
-				<h4 className="text-24">Wellington Limousine</h4>
-				<div className="flex">
-					<div>
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur corrupti voluptates.</p>
-						<button>Reach out to us</button>
-					</div>
-					<div className="border-4">
-						<div>
-							<img src="" alt="img" />
-							<span>Location here</span>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<Footer />
 		</>
 	);
 }
