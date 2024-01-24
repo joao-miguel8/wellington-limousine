@@ -48,7 +48,7 @@ function BenefitsSection() {
 				<div className="mx-auto p-8 max-w-[600px] flex flex-wrap  justify-center gap-8 min-[404px]:justify-between">
 					{benefitsData.map(benefit => {
 						return (
-							<div className="flex-33% max-w-[120px] flex flex-col items-center max-[400px]:mb-8">
+							<div key={benefit.description} className="flex-33% max-w-[120px] flex flex-col items-center max-[400px]:mb-8">
 								{benefit.icon}
 								<span className="mt-4 font-taviraj text-center font-medium text-white">{benefit.description}</span>
 							</div>
