@@ -1,4 +1,3 @@
-import benefitsImg from "../../assets/cartoon-driver-img.jpg";
 import { FaCarSide } from "react-icons/fa";
 
 function BenefitsSection() {
@@ -32,11 +31,14 @@ function BenefitsSection() {
 	return (
 		<div className="bg-white">
 			<div className="px-2 mx-auto max-w-[350px]">
-				<h4 className="mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28">
-					Benefits <span className="text-[#D7B65C]">ipsum dolor </span>
-					malaga lada
-				</h4>
-				<p className="mt-4 font-taviraj text-center font-light italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<div className="flex flex-col items-center">
+					<span className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">Services</span>
+					<h2 className="mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28">
+						We offer <span className="text-[#D7B65C]">exceptional </span>
+						benefits
+					</h2>
+				</div>
+				<p className="mt-4 font-taviraj text-center font-light italic">Here is our chosen selection we think enhance our clients' experience</p>
 			</div>
 
 			{/* BENEFITS LIST */}
