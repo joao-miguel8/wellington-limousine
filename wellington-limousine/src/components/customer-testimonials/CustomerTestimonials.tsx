@@ -15,7 +15,9 @@ function CustomerTestimonials() {
 	return (
 		<section className="mt-40">
 			<div className="flex flex-col items-center">
-				<span className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">Reviews</span>
+				<span id="Reviews" className="pt-[6rem] font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
+					Reviews
+				</span>
 
 				<h4 className="mt-4 text-center font-taviraj font-medium color-[#171717] text-22 min-[350px]:text-28">Client Testimonials</h4>
 			</div>

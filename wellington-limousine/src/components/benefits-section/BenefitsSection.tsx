@@ -32,7 +32,9 @@ function BenefitsSection() {
 		<div className="bg-white">
 			<div className="px-2 mx-auto max-w-[350px]">
 				<div className="flex flex-col items-center">
-					<span className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">Services</span>
+					<span id="Services" className="pt-[6rem] font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
+						Services
+					</span>
 					<h2 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28">
 						We offer <span className="text-[#D7B65C]">exceptional </span>
 						benefits

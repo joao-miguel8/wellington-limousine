@@ -22,7 +22,7 @@ function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMe
 						{menuItems.map(item => {
 							return (
 								<li key={item}>
-									<a href="#">
+									<a href={`#${item}`}>
 										<p className="mb-10 font-mulish text-28 font-black sm:text-34 text-white hover:text-[#D7B65C] duration-500 hover:scale-75">{item}</p>
 									</a>
 								</li>

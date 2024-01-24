@@ -16,7 +16,9 @@ function NewClientForm() {
 	return (
 		<section className="mt-[14rem] mx-auto pb-10 pt-6 rounded-sm max-w-[700px]">
 			<div className="flex flex-col items-center">
-				<span className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">Sign up</span>
+				<span id="Contact" className="pt-[6rem] font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
+					Sign up
+				</span>
 				<h4 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28 max-w-[350px]">Notify us by email to be a potential client</h4>
 			</div>
 			<form
