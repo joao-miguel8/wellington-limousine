@@ -6,6 +6,7 @@ import NewClientForm from "./components/new-client-form/NewClientForm";
 import BenefitsSection from "./components/benefits-section/BenefitsSection";
 import CustomerTestimonials from "./components/customer-testimonials/CustomerTestimonials";
 import Footer from "./components/footer/Footer";
+import AboutSection from "./components/about-section/AboutSection";
 
 function App() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
@@ -14,6 +15,7 @@ function App() {
 		<>
 			<Header isMenuClosed={isMenuClosed} setIsMenuClosed={setIsMenuClosed} />
 			{/* <HeroSection /> */}
+			<AboutSection />
 			<NewClientForm />
 			{/* PARALLAX IMG SECTION */}
 			{/* style={{ backgroundImage: `url(${parallaxImgMobile})` }} */}
