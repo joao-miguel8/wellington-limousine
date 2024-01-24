@@ -32,13 +32,12 @@ function BenefitsSection() {
 	return (
 		<div className="bg-white">
 			<div className="px-2 mx-auto max-w-[350px]">
-				<h4 className="mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28 ">
+				<h4 className="mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28">
 					Benefits <span className="text-[#D7B65C]">ipsum dolor </span>
 					malaga lada
 				</h4>
 				<p className="mt-4 font-taviraj text-center font-light italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
-			<img src={benefitsImg} alt="#" className="mx-auto mt-12 w-full min-[400px]:w-[40%] " />
 
 			{/* BENEFITS LIST */}
 			<div className="mt-12 p-4 justify-center gap-4 bg-[#171717]">
