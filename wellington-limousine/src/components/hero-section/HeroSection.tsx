@@ -2,10 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css/bundle";
 import heroI from "../../assets/hero-img01.avif";
-import testimg from "../../assets/sardar-faizan-gpkn6Dk7-oI-unsplash.jpg";
+import heroI2 from "../../assets/woman-leaving-car.jpg";
+import heroI3 from "../../assets/young-businessman.jpg";
 
 function HeroSection({ handleFormInputFocusScroll }: { handleFormInputFocusScroll: () => void }) {
-	const slides = [heroI, testimg, heroI];
+	const slides = [heroI3, heroI2, heroI];
 
 	return (
 		<div className="relative">
