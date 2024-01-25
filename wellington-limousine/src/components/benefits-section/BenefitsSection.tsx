@@ -1,5 +1,3 @@
-import { FaCarSide } from "react-icons/fa";
-
 function BenefitsSection() {
 	const benefitsData = [
 		{
