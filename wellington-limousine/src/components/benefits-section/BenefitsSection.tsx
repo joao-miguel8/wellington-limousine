@@ -147,8 +147,8 @@ function BenefitsSection() {
 				<div className="mx-auto p-8 max-w-[600px] flex flex-wrap  justify-center gap-8 min-[404px]:justify-between">
 					{benefitsData.map(benefit => {
 						return (
-							<div key={benefit.description} className="flex-33% max-w-[120px] flex flex-col items-center max-[400px]:mb-8">
-								{benefit.icon}
+							<div key={benefit.description} className="group flex-33% max-w-[120px] flex flex-col items-center max-[400px]:mb-8">
+								<div className="group-hover:-translate-y-2 duration-500">{benefit.icon}</div>
 								<span className="mt-4 font-taviraj text-center font-medium text-white">{benefit.description}</span>
 							</div>
 						);
