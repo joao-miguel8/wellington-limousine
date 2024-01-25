@@ -17,7 +17,7 @@ function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMe
 					<ul className="ml-10 mt-10 w-fit">
 						{menuItems.map(item => {
 							return (
-								<li key={item}>
+								<li onClick={() => setIsMenuClosed(false)} key={item}>
 									<a href={`#${item}`}>
 										<p className="mb-10 font-mulish text-18 font-black text-white hover:text-[#D7B65C] duration-500">{item}</p>
 									</a>
