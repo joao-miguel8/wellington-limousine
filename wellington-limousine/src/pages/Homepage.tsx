@@ -9,6 +9,7 @@ import Footer from "../components/footer/Footer";
 import AboutSection from "../components/about-section/AboutSection";
 import ParallaxImageScrollSection from "../components/parallax-image-scroll-section/ParallaxImageScrollSection";
 import Nav from "../components/Nav";
+import FloatingGoToFormBtn from "../components/floating-go-to-form-btn/FloatingGoToFormBtn";
 
 function Homepage() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
@@ -37,6 +38,7 @@ function Homepage() {
 			{/* REVIEWS SECTION */}
 			<CustomerTestimonials />
 			<Footer handleInputRefFocusScroll={handleInputRefFocusScroll} />
+			<FloatingGoToFormBtn handleInputRefFocusScroll={() => handleInputRefFocusScroll()} />
 		</>
 	);
 }
