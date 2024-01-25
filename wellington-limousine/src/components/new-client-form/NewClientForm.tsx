@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { RefObject, useState } from "react";
 
-function NewClientForm({ formInputRef }) {
+function NewClientForm({ formInputRef }: { formInputRef: RefObject<HTMLInputElement> }) {
 	type ClientFormDataType = {
 		name: string;
 		email: string;

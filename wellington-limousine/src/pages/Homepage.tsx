@@ -13,7 +13,7 @@ import FloatingGoToFormBtn from "../components/floating-go-to-form-btn/FloatingG
 
 function Homepage() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
-	const inputRef = useRef<HTMLInputElement>();
+	const inputRef = useRef<HTMLInputElement | null>(null);
 
 	const handleInputRefFocusScroll = () => {
 		if (inputRef.current) {
