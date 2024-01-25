@@ -1,8 +1,8 @@
-import Nav from "../Nav";
-import { MdMenu } from "react-icons/md";
+import { ReactNode } from "react";
 import logo from "../../assets/wellingtonLimousineLogo.png";
+import { MdMenu } from "react-icons/md";
 
-function Header({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMenuClosed: (boolVal: boolean) => void }) {
+function Header({ children, setIsMenuClosed }: { children: ReactNode; setIsMenuClosed: (boolVal: boolean) => void }) {
 	return (
 		<div>
 			<header className="px-4 sm:pl-10 h-[5rem] w-full z-20 top-0 fixed flex items-center justify-between bg-[#171717]">
@@ -11,7 +11,7 @@ function Header({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setI
 				</button>
 				<img src={logo} alt="wellington limousine logo" className="w-40" />
 			</header>
-			<Nav isMenuClosed={isMenuClosed} setIsMenuClosed={setIsMenuClosed} />
+			{children}
 		</div>
 	);
 }
