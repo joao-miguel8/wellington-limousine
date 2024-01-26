@@ -22,7 +22,8 @@ function NewClientForm({ formInputRef }: { formInputRef: RefObject<HTMLInputElem
 				<h4 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28 max-w-[350px]">Notify us by email to be a potential client</h4>
 			</div>
 			<form
-				action=""
+				action="https://api.web3forms.com/submit"
+				method="POST"
 				className="mx-4 p-8 mt-10 bg-[#f9f9f9]
         [box-shadow:rgba(50,_50,_93,_0.25)_0px_2px_5px_-1px,_rgba(0,_0,_0,_0.3)_0px_1px_3px_-1px]
  ">
@@ -45,6 +46,7 @@ function NewClientForm({ formInputRef }: { formInputRef: RefObject<HTMLInputElem
 						</button>
 					</div>
 				</div>
+				<input type="hidden" name="access_key" value="94e0caf1-dd78-47d3-8e97-f4a2a6c6f9b9" />
 			</form>
 		</section>
 	);
