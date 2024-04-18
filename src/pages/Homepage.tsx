@@ -27,6 +27,7 @@ function Homepage() {
 			<Header setIsMenuClosed={setIsMenuClosed}>
 				<Nav isMenuClosed={isMenuClosed} setIsMenuClosed={setIsMenuClosed} />
 			</Header>
+			<p className="mx-auto p-2 z-10 absolute top-[95px] left-0 right-0 font-semibold w-40 text-white text-14 text-center bg-gray-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-[#D7B65C]">Located in Connecticut, NJ, and the NY tristate area</p>
 			<HeroSection handleFormInputFocusScroll={() => handleInputRefFocusScroll()} />
 			{/* ABOUT SECTION */}
 			<AboutSection />
