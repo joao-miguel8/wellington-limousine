@@ -9,7 +9,6 @@ function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMe
 		{ label: "Home", link: "/" },
 		{ label: "Our Services", link: "/services" },
 		{ label: "About Us", link: "/about" },
-		{ label: "Reviews", link: "" },
 	];
 
 	return (

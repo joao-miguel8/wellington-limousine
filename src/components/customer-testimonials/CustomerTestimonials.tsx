@@ -19,7 +19,7 @@ function CustomerTestimonials() {
 					Reviews
 				</span>
 
-				<h4 className="mt-4 text-center font-taviraj font-medium color-[#171717] text-22 min-[350px]:text-28">Client Testimonials</h4>
+				<h4 className="mt-4 text-center font-taviraj font-medium color-[#171717] text-28 min-[350px]:text-28">Client Testimonials</h4>
 			</div>
 			<Swiper
 				style={{

@@ -5,7 +5,7 @@ function AboutSection() {
 				<span id="About" className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
 					About Us
 				</span>
-				<h2 className="mt-4 font-taviraj font-medium color-[#171717] text-20 lg:text-24">
+				<h2 className="mt-4 font-taviraj font-medium color-[#171717] text-28 lg:text-24">
 					Discover <span className="text-[#D7B65C]">our story</span>
 				</h2>
 			</div>

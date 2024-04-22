@@ -2,7 +2,7 @@ function BenefitsSection() {
 	const benefitsData = [
 		{
 			icon: (
-				<svg className="w-12" fill="#D7B65C" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" stroke="#D7B65C">
+				<svg className="w-12" fill="#D7B65C" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 					<g id="SVGRepo_bgCarrier" strokeWidth={0} />
 					<g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
 					<g id="SVGRepo_iconCarrier">
@@ -13,7 +13,9 @@ function BenefitsSection() {
 					</g>
 				</svg>
 			),
-			description: "Licensed and Insured",
+			title: "Licensed and Insured",
+			description:
+				"Our private chauffeur service prioritizes your safety and peace of mind. With fully licensed and insured drivers, we adhere to the highest standards of professionalism and compliance. Trust in our credentials to ensure a secure and reliable transportation experience.Keywords: licensed chauffeur, insured drivers, safe transportation, professional chauffeur service",
 		},
 		{
 			icon: (
@@ -29,7 +31,9 @@ function BenefitsSection() {
 					</g>
 				</svg>
 			),
-			description: "Booked by Appointments only",
+			title: "Booked by Appointments only",
+			description:
+				"Enjoy the convenience of personalized transportation tailored to your schedule. By operating on an appointment-only basis, we guarantee punctuality and availability when you need it most. Say goodbye to waiting and uncertainty – book your ride with us and experience unparalleled reliability.Keywords: appointment-based chauffeur, on-demand transportation, scheduled rides, punctual chauffeur service",
 		},
 		{
 			icon: (
@@ -65,7 +69,9 @@ function BenefitsSection() {
 					</g>
 				</svg>
 			),
-			description: "Frequently serviced, clean vehicles.",
+			title: "Frequently serviced, clean vehicles.",
+			description:
+				"Step into a pristine and well-maintained vehicle for every journey. Our fleet undergoes regular servicing to ensure optimal performance and cleanliness. Experience luxury and comfort without compromise, every time you ride with us.Keywords: clean car service, maintained vehicles, luxury transportation, chauffeur car cleaning",
 		},
 		{
 			icon: (
@@ -85,7 +91,9 @@ function BenefitsSection() {
 					</g>
 				</svg>
 			),
-			description: "Professionally Trained Drivers",
+			title: "Professionally Trained Drivers",
+			description:
+				"Our chauffeurs are more than just drivers – they're trained professionals dedicated to providing top-tier service. With extensive training and expertise, our team excels in navigating diverse routes and handling various transportation needs. Sit back, relax, and let our skilled drivers take care of the rest.Keywords: professional chauffeurs, trained drivers, skilled chauffeur team, expert transportation service",
 		},
 		{
 			icon: (
@@ -102,7 +110,9 @@ function BenefitsSection() {
 					</g>
 				</svg>
 			),
-			description: "Shopping, hospitals, Special Events",
+			title: "Shopping, hospitals, Special Events",
+			description:
+				"Whether it's a shopping spree, a medical appointment, or a special event, we've got you covered. Our chauffeur service extends beyond conventional transportation, catering to a wide range of destinations and occasions. Experience convenience and luxury wherever your journey takes you.Keywords: shopping chauffeur, medical transportation, event chauffeur, luxury transportation service",
 		},
 		{
 			icon: (
@@ -120,33 +130,36 @@ function BenefitsSection() {
 					</g>
 				</svg>
 			),
-			description: "Airport pickup and drop off",
+			title: "Airport pickup and drop off",
+			description:
+				"Start and end your travels stress-free with our seamless airport transfer service. From curbside pickup to timely drop-offs, we prioritize efficiency and comfort for your airport transportation needs. Trust in us to deliver a smooth and hassle-free journey, every time you fly.Keywords: airport chauffeur, airport transfer service, airport shuttle, reliable airport transportation",
 		},
 	];
 
 	return (
 		<div className="bg-white">
-			<div className="px-2 mx-auto max-w-[350px]">
+			<div className="pb-20 px-2 mx-auto border-b-2 border-gray-150">
 				<div className="flex flex-col items-center">
 					<span id="Services" className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
 						Services
 					</span>
-					<h2 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28">
+					<h2 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-28 min-[350px]:text-28">
 						We offer <span className="text-[#D7B65C]">exceptional </span>
 						benefits
 					</h2>
 				</div>
-				<p className="mt-4 font-taviraj text-center font-light italic">Here is our chosen selection we think enhance our client's experience</p>
+				<p className="mt-10 font-taviraj text-center font-light italic text-22">Here is our chosen selection we think enhance our client's experience</p>
 			</div>
 
 			{/* BENEFITS LIST */}
-			<div className="mt-12 p-4 justify-center gap-4 bg-[#171717]">
-				<div className="mx-auto p-8 max-w-[600px] flex flex-wrap  justify-center gap-8 min-[404px]:justify-between">
+			<div className="justify-center gap-4">
+				<div className="mx-auto gap-8">
 					{benefitsData.map(benefit => {
 						return (
-							<div key={benefit.description} className="group flex-33% max-w-[120px] flex flex-col items-center max-[400px]:mb-8">
-								<div className="group-hover:-translate-y-2 duration-500">{benefit.icon}</div>
-								<span className="mt-4 font-taviraj text-center font-medium text-white">{benefit.description}</span>
+							<div key={benefit.title} className="my-28 group flex flex-col items-center max-[400px]:mb-8 text-20 text-black">
+								<svg className="w-28 group-hover:-translate-y-2 duration-500">{benefit.icon}</svg>
+								<span className="mt-4 font-taviraj text-center font-black text-black">{benefit.title}</span>
+								<p className="mt-6 text-black text-18 text-center leading-8">{benefit.description}</p>
 							</div>
 						);
 					})}
