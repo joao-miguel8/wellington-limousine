@@ -14,7 +14,7 @@ function NewClientForm({ formInputRef }: { formInputRef: RefObject<HTMLInputElem
 	});
 
 	return (
-		<section className="mt-[14rem] mx-auto pb-24 pt-6 rounded-sm max-w-[700px]">
+		<section className="mt-[2rem] mx-auto pb-24 pt-6 rounded-sm max-w-[700px]">
 			<div className="flex flex-col items-center">
 				<span id="Contact" className="pt-[6rem] font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
 					Sign up

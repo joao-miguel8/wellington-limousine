@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import logo from "../../assets/wellingtonLimousineLogo.png";
 import { MdMenu } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Header({ children, setIsMenuClosed }: { children: ReactNode; setIsMenuClosed: (boolVal: boolean) => void }) {
 	return (
@@ -10,7 +11,9 @@ function Header({ children, setIsMenuClosed }: { children: ReactNode; setIsMenuC
 					<button onClick={() => setIsMenuClosed(true)} className="mr-8 text-white hover:text-[#D7B65C] hover:duration-200">
 						<MdMenu size={"1.8rem"} />
 					</button>
-					<img src={logo} alt="wellington limousine logo" className="w-40" />
+					<Link to={"/"}>
+						<img src={logo} alt="wellington limousine logo" className="w-40" />
+					</Link>
 				</div>
 			</header>
 			{children}

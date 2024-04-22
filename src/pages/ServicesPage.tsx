@@ -11,7 +11,7 @@ function ServicesPage() {
 			<Header setIsMenuClosed={setIsMenuClosed}>
 				<Nav isMenuClosed={isMenuClosed} setIsMenuClosed={setIsMenuClosed} />
 			</Header>
-			<main className="mt-32 mb-10">
+			<main className="mt-40 mb-60">
 				{/* BENEFITS SECTION */}
 				<BenefitsSection />
 			</main>
