@@ -6,10 +6,10 @@ function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMe
 	// const menuItems = ["About", "Services", "Reviews", "Contact"];
 
 	const menuItems = [
-		{ label: "About", link: "" },
-		{ label: "Services", link: "/services" },
+		{ label: "Home", link: "/" },
+		{ label: "Our Services", link: "/services" },
+		{ label: "About Us", link: "/about" },
 		{ label: "Reviews", link: "" },
-		{ label: "Contact", link: "" },
 	];
 
 	return (

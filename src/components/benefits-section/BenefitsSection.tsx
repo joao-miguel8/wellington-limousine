@@ -21,12 +21,11 @@ function BenefitsSection() {
 					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
 					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
 					<g id="SVGRepo_iconCarrier">
-						{" "}
 						<path
 							fill-rule="evenodd"
 							clip-rule="evenodd"
 							d="M12 2H13.5C14.3284 2 15 2.67157 15 3.5V13.5C15 14.3284 14.3284 15 13.5 15H1.5C0.671573 15 0 14.3284 0 13.5V3.5C0 2.67157 0.671573 2 1.5 2H3V0H4V2H11V0H12V2ZM6 8H3V7H6V8ZM12 7H9V8H12V7ZM6 11H3V10H6V11ZM9 11H12V10H9V11Z"
-							fill="#D7B65C"></path>{" "}
+							fill="#D7B65C"></path>
 					</g>
 				</svg>
 			),
@@ -129,7 +128,7 @@ function BenefitsSection() {
 		<div className="bg-white">
 			<div className="px-2 mx-auto max-w-[350px]">
 				<div className="flex flex-col items-center">
-					<span id="Services" className="pt-[6rem] font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
+					<span id="Services" className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
 						Services
 					</span>
 					<h2 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-22 min-[350px]:text-28">
