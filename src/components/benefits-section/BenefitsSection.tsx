@@ -137,7 +137,7 @@ function BenefitsSection() {
 	];
 
 	return (
-		<div className="bg-white">
+		<div className="px-20 bg-white">
 			<div className="pb-20 px-2 mx-auto border-b-2 border-gray-150">
 				<div className="flex flex-col items-center">
 					<span id="Services" className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
