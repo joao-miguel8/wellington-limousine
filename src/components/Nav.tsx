@@ -1,8 +1,16 @@
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import logo from "../assets/wellingtonLimousineLogo.png";
+import { Link } from "react-router-dom";
 
 function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMenuClosed: (boolVal: boolean) => void }) {
-	const menuItems = ["About", "Services", "Reviews", "Contact"];
+	// const menuItems = ["About", "Services", "Reviews", "Contact"];
+
+	const menuItems = [
+		{ label: "About", link: "" },
+		{ label: "Services", link: "/services" },
+		{ label: "Reviews", link: "" },
+		{ label: "Contact", link: "" },
+	];
 
 	return (
 		<>
@@ -15,12 +23,12 @@ function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMe
 						</button>
 					</div>
 					<ul className="ml-10 mt-10 w-fit">
-						{menuItems.map(item => {
+						{menuItems.map(({ label, link }) => {
 							return (
-								<li onClick={() => setIsMenuClosed(false)} key={item}>
-									<a href={`#${item}`}>
-										<p className="mb-10 font-mulish text-18 font-black text-white hover:text-[#D7B65C] duration-500">{item}</p>
-									</a>
+								<li onClick={() => setIsMenuClosed(false)} key={label}>
+									<Link to={`${link}`}>
+										<p className="mb-10 font-mulish text-18 font-black text-white hover:text-[#D7B65C] duration-500">{label}</p>
+									</Link>
 								</li>
 							);
 						})}

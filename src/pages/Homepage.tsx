@@ -3,7 +3,6 @@ import "../App.css";
 import HeroSection from "../components/hero-section/HeroSection";
 import Header from "../components/header/Header";
 import NewClientForm from "../components/new-client-form/NewClientForm";
-import BenefitsSection from "../components/benefits-section/BenefitsSection";
 import CustomerTestimonials from "../components/customer-testimonials/CustomerTestimonials";
 import Footer from "../components/footer/Footer";
 import AboutSection from "../components/about-section/AboutSection";
@@ -34,8 +33,6 @@ function Homepage() {
 			<NewClientForm formInputRef={inputRef} />
 			{/* PARALLAX IMG SECTION */}
 			<ParallaxImageScrollSection />
-			{/* BENEFITS SECTION */}
-			<BenefitsSection />
 			{/* REVIEWS SECTION */}
 			<CustomerTestimonials />
 			<Footer handleInputRefFocusScroll={handleInputRefFocusScroll} />
