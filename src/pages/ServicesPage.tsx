@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ServicesSection from "../components/services-section/ServicesSection";
 import BenefitsSection from "../components/benefits-section/BenefitsSection";
 import Header from "../components/header/Header";
 import Nav from "../components/Nav";
@@ -14,6 +15,7 @@ function ServicesPage() {
 			<main className="mt-40">
 				{/* BENEFITS SECTION */}
 				<BenefitsSection />
+				<ServicesSection />
 			</main>
 		</>
 	);
