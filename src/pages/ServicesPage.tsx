@@ -3,6 +3,7 @@ import ServicesSection from "../components/services-section/ServicesSection";
 import BenefitsSection from "../components/benefits-section/BenefitsSection";
 import Header from "../components/header/Header";
 import Nav from "../components/Nav";
+import Footer from "../components/footer/Footer";
 
 function ServicesPage() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
@@ -16,6 +17,7 @@ function ServicesPage() {
 				{/* BENEFITS SECTION */}
 				<BenefitsSection />
 				<ServicesSection />
+				<Footer />
 			</main>
 		</>
 	);
