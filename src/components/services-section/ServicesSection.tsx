@@ -1,33 +1,38 @@
 import { Link } from "react-router-dom";
+import airplaneIMG from "../../assets/airplane.jpg";
+import privateTransferIMG from "../../assets/privatetransfer.jpg";
+import personalTransportIMG from "../../assets/personaltransport.jpg";
+import eventIMG from "../../assets/event.jpg";
+import cityIMG from "../../assets/city.jpg";
 
 function ServicesSection() {
 	const servicesData = [
 		{
 			title: "Airport Transportation",
 			description: "Elevate your airport experience with our premium transportation service! Enjoy quick pickups and drop-offs with budget-friendly rates. Leave airport worries behind and embrace the excitement of travel!",
-			img: "./assets/airplane.jpg",
+			img: airplaneIMG,
 		},
 		{
 			title: "Private Transfers",
 			description:
 				"Whether you're heading to or from the airport, an event, holiday parties, in group or individual our express pickups and transfers ensure you're on time, every time. Enjoy the comfort, With our private transfers, you can avoid unreliable transportation options and sit back, relax, and let us take care of all your travel needs.",
-			img: "./assets/privatetransfer.jpg",
+			img: privateTransferIMG,
 		},
 		{
 			title: "Personal Chauffeur",
 			description: "Experience the convenience of personal pickups and executive transportation designed just for you and your  luxury transportation needs!",
-			img: "./assets/personaltransport.jpg",
+			img: personalTransportIMG,
 		},
 		{
 			title: "Special Events, City Trips,",
 			description:
 				"Arrive in style at your special event with our chauffeur service! Whether it's weddings or event outings, we've got you covered. Our professional chauffeurs ensure a seamless and luxurious experience, making every journey memorable. Book now and elevate your event with our VIP transportation services.",
-			img: "./assets/event.jpg",
+			img: eventIMG,
 		},
 		{
 			title: "City Trips,",
 			description: "Enjoy city trips and friend gatherings with our chauffeur service transportation, From spontaneous rides with friends to planned outings, we're your go-to for city trips, Let our professional driving experience be a part of your journey.",
-			img: "./assets/city.jpg",
+			img: cityIMG,
 		},
 	];
 	return (
