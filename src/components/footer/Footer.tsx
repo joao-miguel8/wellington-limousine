@@ -7,7 +7,7 @@ function Footer({ handleInputRefFocusScroll }: { handleInputRefFocusScroll?: () 
 			<div className="p-10">
 				<img src={logo} alt="wellington limousine logo" className="mx-auto w-40" />
 				<div className="mt-10 sm:flex justify-center gap-4">
-					<div className="mt-10 flex-[50%] sm:max-w-[300px] bg-[url('src/assets/ny-ss.png')] bg-cover bg-[#171717] opacity-60">
+					<div className={`mt-10 flex-[50%] sm:max-w-[300px] bg-[url('assets/ny-ss.png')] bg-cover bg-[#060606] opacity-60`}>
 						<div className="p-4 flex flex-col items-center ">
 							<FaLocationDot color="#D7B65C" size={"2.2rem"} />
 							<p className="mt-4 max-w-60 text-center font-taviraj font-bold text-black ">Located in the New york tri-state area</p>

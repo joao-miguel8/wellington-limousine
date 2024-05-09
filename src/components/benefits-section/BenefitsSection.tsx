@@ -10,7 +10,7 @@ function BenefitsSection() {
 		},
 		{
 			title: "Frequently serviced, clean vehicles",
-			description: "Well-maintained vehicle for every journey. Our vechiles perform regular servicing to ensure optimal performance and cleanliness.",
+			description: "Well-maintained vehicle for every journey. Our vehicles perform regular servicing to ensure optimal performance and cleanliness.",
 		},
 		{
 			title: "Professionally Trained Driver",

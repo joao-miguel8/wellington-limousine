@@ -5,10 +5,10 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css/bundle";
 
 const clientTestimonials = [
-	{ name: "Bob Smith", Comment: " Exceeded my expectations with their impeccable service. The chauffeur was not only punctual but also exhibited a high level of professionalism, making my journey both comfortable and stress-free." },
-	{ name: "Marissa Don", Comment: "highly recommend Chouffer for their top-notch chauffeur service. The driver's courtesy and expertise in navigating through traffic made the ride enjoyable." },
+	{ name: "Bob Smith", Comment: "Exceeded my expectations with their impeccable service. The chauffeur was not only punctual but also exhibited a high level of professionalism, making my journey both comfortable and stress-free." },
+	{ name: "Marissa Don", Comment: "Highly recommend this chauffeur service, I had an enjoyable ride." },
 	{ name: "Frank Gavin", Comment: "A True gem in the world of transportation. I felt like a valued customer." },
-	{ name: "Lindsey Schmitt", Comment: "Exceptional service and attention to detail. The chauffeur went above and beyond to ensure a smooth ride, making me feel like a VIP. If you're looking for a reliable and classy driving service, Chouffer is the way to go.." },
+	{ name: "Lindsey Schmitt", Comment: "Exceptional service and attention to detail. The chauffeur went above and beyond to ensure a smooth ride, making me feel like a VIP. If you're looking for a reliable and classy driving service, chauffeur is the way to go." },
 ];
 
 function CustomerTestimonials() {

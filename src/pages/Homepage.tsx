@@ -34,7 +34,7 @@ function Homepage() {
 					Elevate Your Journey with Wellington Limousine's <span className="text-[#D7B65C]">Private Chauffeur Services</span>
 				</h1>
 				<p className="mt-4 text-18 text-center leading-8">
-					Wellington Limousine's premier private chauffeur services is a one man operation and has been operating for nearly 8 years, we offer a level of personalized attention that sets us from our competitors in luxury and convenience. Offering various transportation services;
+					Wellington Limousine's premier private chauffeur services is a one man operation and has been operating for nearly 8 years, we offer a level of personalized attention that sets us apart from our competitors in luxury and convenience. Offering various transportation services;
 					<div className="flex flex-col gap-2 my-4">
 						<Link className="text-[#c39f3b] font-semibold hover:text-[#a88421]" to={"/services"}>
 							Private Chauffeur
