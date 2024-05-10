@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/wellingtonLimousineLogo.png";
 import { FaLocationDot } from "react-icons/fa6";
 
-function Footer({ handleInputRefFocusScroll }: { handleInputRefFocusScroll?: () => void }) {
+function Footer() {
 	return (
 		<footer className="mt-10 border-t border-[#e8e8e8]">
 			<div className="p-10">

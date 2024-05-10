@@ -11,14 +11,6 @@ import { Link } from "react-router-dom";
 
 function Homepage() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
-	const inputRef = useRef<HTMLInputElement | null>(null);
-
-	const handleInputRefFocusScroll = () => {
-		if (inputRef.current) {
-			inputRef.current.scrollIntoView();
-			inputRef.current.focus();
-		}
-	};
 
 	return (
 		<>
@@ -64,7 +56,7 @@ function Homepage() {
 			<ParallaxImageScrollSection />
 			{/* REVIEWS SECTION */}
 			<CustomerTestimonials />
-			<Footer handleInputRefFocusScroll={handleInputRefFocusScroll} />
+			<Footer />
 			<FloatingGoToFormBtn />
 		</>
 	);
