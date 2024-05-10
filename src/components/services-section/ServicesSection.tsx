@@ -24,7 +24,7 @@ function ServicesSection() {
 			img: personalTransportIMG,
 		},
 		{
-			title: "Special Events, City Trips,",
+			title: "Special Events",
 			description:
 				"Arrive in style at your special event with our chauffeur service! Whether it's weddings or event outings, we've got you covered. Our professional chauffeurs ensure a seamless and luxurious experience, making every journey memorable. Book now and elevate your event with our VIP transportation services.",
 			img: eventIMG,
