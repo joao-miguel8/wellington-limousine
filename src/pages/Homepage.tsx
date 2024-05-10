@@ -26,7 +26,7 @@ function Homepage() {
 				<Nav isMenuClosed={isMenuClosed} setIsMenuClosed={setIsMenuClosed} />
 			</Header>
 			<p className="mx-auto p-2 z-10 absolute top-[95px] left-0 right-0 font-semibold w-40 text-white text-14 text-center bg-gray-700 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-[#D7B65C]">Located in Connecticut, NJ, and the NY tristate area</p>
-			<HeroSection handleFormInputFocusScroll={() => handleInputRefFocusScroll()} />
+			<HeroSection />
 			{/* ABOUT SECTION */}
 			<div className="mx-auto max-w-[600px] my-20">
 				<h1 className="font-semibold text-26 text-center">
@@ -65,7 +65,7 @@ function Homepage() {
 			{/* REVIEWS SECTION */}
 			<CustomerTestimonials />
 			<Footer handleInputRefFocusScroll={handleInputRefFocusScroll} />
-			<FloatingGoToFormBtn handleInputRefFocusScroll={() => handleInputRefFocusScroll()} />
+			<FloatingGoToFormBtn />
 		</>
 	);
 }
