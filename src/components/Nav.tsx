@@ -7,6 +7,7 @@ function Nav({ isMenuClosed, setIsMenuClosed }: { isMenuClosed: boolean; setIsMe
 
 	const menuItems = [
 		{ label: "Home", link: "/" },
+		{ label: "Book A Ride", link: "/booking" },
 		{ label: "Our Services", link: "/services" },
 		{ label: "About Us", link: "/about" },
 	];
