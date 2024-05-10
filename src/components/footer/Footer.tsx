@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/wellingtonLimousineLogo.png";
 import { FaLocationDot } from "react-icons/fa6";
 
@@ -15,9 +16,9 @@ function Footer({ handleInputRefFocusScroll }: { handleInputRefFocusScroll?: () 
 					</div>
 					<div className="flex flex-col items-center flex-[50%] max-w-[500px] ">
 						<p className="mt-10 max-w-[400px] text-center font-mulish text-16">If our services interest you, please submit our form to become our potential client.</p>
-						<button onClick={() => handleInputRefFocusScroll && handleInputRefFocusScroll()} className="mt-10 p-4 bg-[#D7B65C] hover:scale-[1.05] duration-300 font-mulish font-bold">
+						<Link to={"/booking"} className="mt-10 p-4 bg-[#D7B65C] hover:scale-[1.05] duration-300 font-mulish font-bold">
 							Reach out to us
-						</button>
+						</Link>
 					</div>
 				</div>
 			</div>
