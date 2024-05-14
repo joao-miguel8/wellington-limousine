@@ -43,10 +43,10 @@ function ServicesSection() {
 					<span id="Services" className="font-taviraj text-16 font-semibold italic text-[#D7B65C] border-b border-[#D7B65C]">
 						Services
 					</span>
-					<h2 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-28 min-[350px]:text-28">
+					<h1 className="mt-4 mx-auto font-taviraj font-medium text-center color-[#171717] text-28 min-[350px]:text-28">
 						We offer <span className="text-[#D7B65C]">exceptional </span>
 						Chauffeur Services
-					</h2>
+					</h1>
 				</div>
 				<p className="mt-10 font-taviraj text-center font-light italic text-22">Be our potential client and experience amazing transportation services you deserve </p>
 				<Link to={"/booking"} className="mt-8 mx-20 px-4 py-2 flex flex-col items-center text-20 font-mulish font-semibold text-[#171717] bg-[#D7B65C] hover:bg-[#dfab1c] duration-300">
