@@ -41,9 +41,9 @@ function BookingPage() {
 					<p className="mt-10 font-taviraj text-center font-light text-20">Upon submission of our booking form, we will promptly reach out to you at our earliest convenience.</p>
 				</div>
 			</div>
-			<Link to={"/services"} className="mt-8 mb-20 mx-20 px-4 py-2 flex flex-col items-center text-20 font-mulish font-semibold text-[#171717] bg-[#D7B65C] hover:bg-[#dfab1c] duration-300">
+			{/* <Link to={"/services"} className="mt-8 mb-20 mx-20 px-4 py-2 flex flex-col items-center text-20 font-mulish font-semibold text-[#171717] bg-[#D7B65C] hover:bg-[#dfab1c] duration-300">
 				Our List of Benefits and Services
-			</Link>
+			</Link> */}
 			{/* Form + Google Img */}
 			<div className="flex flex-col">
 				{/* Google Img */}
