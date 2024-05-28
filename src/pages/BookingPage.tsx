@@ -47,13 +47,13 @@ function BookingPage() {
 			{/* Form + Google Img */}
 			<div className="flex flex-col">
 				{/* Google Img */}
-				<div className={`w-full h-96 bg-[url('assets/ny-ss.png')] bg-cover bg-[#060606] opacity-60`}></div>
-				<section className="z-10 flex-1 -mt-20 mx-auto pb-24 rounded-sm w-[700px]">
+				<div className={`w-full h-[40rem] bg-[url('assets/ny-ss.png')] bg-cover bg-[#060606] opacity-60`}></div>
+				<section className="z-10 flex-1 -mt-[38em] mx-auto pb-24 rounded-sm w-[700px]">
 					{/* Form */}
 					<form
 						action="https://api.web3forms.com/submit"
 						method="POST"
-						className="mx-4 p-8 mt-10 bg-[#f9f9f9]
+						className="mx-4 p-8 bg-[#f9f9f9]
                [box-shadow:rgba(50,_50,_93,_0.25)_0px_2px_5px_-1px,_rgba(0,_0,_0,_0.3)_0px_1px_3px_-1px]
                ">
 						<div className="flex flex-col w-full gap-6">
