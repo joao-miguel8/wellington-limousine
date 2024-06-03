@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Header from "../components/header/Header";
 import Nav from "../components/Nav";
-import { Link } from "react-router-dom";
 
 function BookingPage() {
 	const [isMenuClosed, setIsMenuClosed] = useState(false);
