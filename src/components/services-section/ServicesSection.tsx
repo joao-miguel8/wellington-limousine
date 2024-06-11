@@ -30,7 +30,7 @@ function ServicesSection() {
 			img: eventIMG,
 		},
 		{
-			title: "City Trips,",
+			title: "City Trips",
 			description: "Enjoy city trips and friend gatherings with our chauffeur service transportation, From spontaneous rides with friends to planned outings, we're your go-to for city trips, Let our professional driving experience be a part of your journey.",
 			img: cityIMG,
 		},
