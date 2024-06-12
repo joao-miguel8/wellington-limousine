@@ -11,15 +11,16 @@ function AboutSection() {
 					Discover <span className="text-[#D7B65C]">our story</span>
 				</h1>
 			</div>
-			<p className="mt-20 mb-8 text-20 italic font-medium font-mulish">
-				Welcome to Wellington Limousine, <p className="mt-4 text-20 font-black"> Your premier chauffeur service in the heart of Connecticut, NJ, the NY tristate area.</p> <span className="inline-block mt-4 text-20 font-black"> Established in 2016 </span>, we have been dedicated to providing
-				an unparalleled experience for our discerning clients. Since our launch, we have taken pride in transforming transportation into an elevated service. Our journey started with a commitment to excellence and a passion for delivering a chauffeur experience that goes beyond expectations.
+			<p className="mt-20 mb-8 text-20 font-mulish">
+				Welcome to Wellington Limousine, <p className="mt-4 text-20"> Your premier chauffeur service in the heart of Connecticut, NJ, the NY tristate area.</p> <span className="inline-block mt-4 text-20"> Established in 2016 </span>, we have been dedicated to providing an unparalleled
+				experience for our discerning clients. Since our launch, we have taken pride in transforming transportation into an elevated service. Our journey started with a commitment to excellence and a passion for delivering a chauffeur experience that goes beyond expectations.
 			</p>
 			<p className="mt-4 text-20 font-mulish">
 				At Wellington Limousine, we understand that our clients are not just passengers; they are valued partners in our journey. <span className="font-black">Our business ensures a safe and professional</span> ride every time. <span className="inline-block"> We are</span>
 				<span className="inline-block font-black">a personalized and Private Service</span>, your comfort is our priority, and we tailor our services to meet your unique needs. We also value punctuality, we know the importance of time, and we are committed to a prompt and punctual service.
 			</p>
-			<p className="mt-4 text-20 font-mulish">
+			<hr className="my-10 border-gray-300"></hr>
+			<p className="mt-4 text-20 font-mulish text-center">
 				Whether you're heading to a{" "}
 				<Link to={"/services"} className="underline font-bold text-[#b9901f]">
 					business meeting,{" "}
