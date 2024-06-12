@@ -21,13 +21,13 @@ function Homepage() {
 			<HeroSection />
 			{/* ABOUT SECTION */}
 			<div className="mx-auto max-w-[600px] my-20">
-				<h1 className="font-semibold text-26 text-center">
+				<h1 className="mx-2 font-semibold text-26 text-center">
 					Elevate Your Journey with Wellington Limousine's <span className="text-[#D7B65C]">Private Chauffeur Services</span>
 				</h1>
-				<p className="mt-4 text-18 text-center leading-8">
+				<p className="mt-4 mx-4 text-18 text-center leading-8">
 					Wellington Limousine's premier private chauffeur services is a one man operation and has been operating for nearly 8 years, we offer a level of personalized attention that sets us apart from our competitors in luxury and convenience. Offering various transportation services
 				</p>
-				<div className="flex flex-col items-center gap-4 my-4">
+				<div className="my-4 mx-6 flex flex-col items-center gap-4 text-center">
 					<Link className="text-[#c39f3b] font-semibold hover:text-[#a88421]" to={"/services"}>
 						Private Chauffeur
 					</Link>
@@ -44,7 +44,7 @@ function Homepage() {
 						Airport Transportation Services and much more.
 					</Link>
 				</div>
-				<p className="mt-6 text-18 text-center leading-8">
+				<p className="mt-6 mx-2 text-18 text-center leading-8">
 					Experience quality comfort and professionalism within every ride, from business trips to special occasions. Our unwavering commitment to excellence ensures a seamless and enjoyable experience.
 					<Link to="/booking" className="font-bold underline">
 						Book your ride today
