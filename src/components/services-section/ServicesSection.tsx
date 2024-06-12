@@ -49,9 +49,11 @@ function ServicesSection() {
 					</h2>
 				</div>
 				<p className="mt-10 font-taviraj text-center font-light italic text-22">Be our potential client and experience amazing transportation services you deserve </p>
-				<Link to={"/booking"} className="mt-8 mx-20 px-4 py-2 flex flex-col items-center text-20 font-mulish font-semibold text-[#171717] bg-[#D7B65C] hover:bg-[#dfab1c] duration-300">
-					Book Your Next Ride Now
-				</Link>
+				<div className="mt-8 flex justify-center text-center">
+					<Link to={"/booking"} className="px-4 py-2 flex flex-col items-center text-20 font-mulish font-semibold text-[#171717] bg-[#D7B65C] hover:bg-[#dfab1c] duration-300 rounded-sm">
+						Book Your Next Ride Now
+					</Link>
+				</div>
 			</div>
 			{/* SERVICES list */}
 			<div className="mx-auto px-10 mt-10 mb-40 max-w-[800px]">
